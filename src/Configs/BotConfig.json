@@ -1,0 +1,9 @@
+{
+    "TOKEN": "TOKEN HERE",
+    "MONGO_URL": "MONGO CONNECT_URL HERE",
+    "OWNERS": ["<owner_id>"],
+    "GUILD_ID": "GUILD_ID HERE",
+    "PREFIX": [".", "PREFIX_2 HERE"],
+    "LANGUAGE": "tr",
+    "LANGUAGE?": "( tr / en ) // TR: Dil olmazsa bot mesaj gönderemez. EN: The bot cannot send messages without any."
+}

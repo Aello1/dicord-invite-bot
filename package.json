@@ -1,0 +1,20 @@
+{
+  "name": "Discord invite bot",
+  "description": "Aello invite bot",
+  "version": "1.0.0",
+  "main": "aello.js",
+  "dependencies": {
+    "@discordjs/voice": "^0.8.0",
+    "ascii-table": "^0.0.9",
+    "chalk": "^4.1.2",
+    "discord.js": "^13.6.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.2.2",
+    "nodemon": "^2.0.15",
+    "table": "^6.8.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "."
+  }
+}

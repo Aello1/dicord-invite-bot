@@ -1,0 +1,5 @@
+{
+    "FAKE_DAY": 5,
+    "FAKE_DAY?": "TR: Şüpheli üyelerin seçimi için minimum bir hesap açılış günü sınırı. // EN: A minimum account opening day limit for selection of suspicious members.",
+    "LOG_CHANNEL": "LOG CHANNEL_ID HERE"
+}

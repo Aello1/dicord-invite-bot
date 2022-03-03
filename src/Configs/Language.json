@@ -1,0 +1,114 @@
+{
+    "ADD_MESSAGE": {
+        "tr": "**{user}** sunucumuza katıldı. Davet eden: **{inviter}** (**{top}** davet, **{regular}** gerçek). {rank}",
+        "en": "**{user}** joined the server. Inviter: **{inviter}** (**{top}** invites, **{regular}** regular). {rank}"
+    },
+    "LEAVE_MESSAGE": {
+        "tr": "**{user}** sunucudan ayrıldı. Davet eden: **{inviter}**. (**{top}** davet). {rank}",
+        "en": "**{user}** leaved the server. Inviter: **{inviter}**. (**{top}** invites). {rank}"
+    },
+    "INVITES_COMMAND": {
+        "tr": "Toplam: **{top}** davet! (**{regular}** gerçek, **{fake}** fake, **{bonus}** bonus, **{leave}** ayrılmış)",
+        "en": "Total: **{top}** invites! (**{regular}** regular, **{fake}** fake, **{bonus}** bonus, **{leave}** left)"
+    },
+    "INVITER_NOT_FOUND": {
+        "tr": "{user} sunucudan ayrıldı fakat davet eden kullanıcı bulunamadı.",
+        "en": "{user} leaved the server. But cannot found the inviter."
+    },
+    "FIND_AUTHOR_ON_TOP_COMMAND": {
+        "tr": "Siz **{rank}.** sıradasınız, toplam **{top}** davetiniz bulunuyor.",
+        "en": "Your rank is {rank}. You have a total of {top} invites."
+    },
+    "CANNOT_FİND_DATA": {
+        "tr": "{user} kullanıcısına ait veri bulunamadı.",
+        "en": "Data for {user} could not be found"
+    },
+    "INFO_COMMAND": {
+        "tr": "Davet eden `{inviter}`. Katılım tarihi: `{joinedAt}`",
+        "en": "Inviter: `{inviter}`. Join date: `{joinedAt}`"
+    },
+    "BOT_READY": {
+        "tr": "Bot başarıyla başlatıldı!",
+        "en": "Bot successfully started!"
+    },
+    "BONUS_COMMAND": {
+        "tr": "{user} adlı kullanıcının bonusu `{amount}` olarak eklendi.",
+        "en": "{user}'s bonus has been added `{amount}`."
+    },
+    "RANK_NUM_ERROR": {
+        "tr": "Lütfen geçerli bir sayı giriniz.",
+        "en": "Please enter a valid number."
+    },
+    "RANK_ROLE_ERROR": {
+        "tr": "Lütfen geçerli bir rol giriniz.",
+        "en": "Please enter a valid role."
+    },
+    "RANK_ADDED": {
+        "tr": "Rank başarıyla eklendi.",
+        "en": "Rank successfully added."
+    },
+    "RANK_REMOVED": {
+        "tr": "Rank başarıyla silindi.",
+        "en": "Rank successfully removed."
+    },
+    "HELP_COMMAND": {
+        "RANK": {
+            "tr": "Davet ile elde edilebilecek bir rol ödülü ekler veya çıkarır.",
+            "en": "Add or remove a role reward for invites."
+        },
+        "HELP": {
+            "tr": "Botun komutları hakkında bilgi verir.",
+            "en": "Shows help for the bot."
+        },
+        "INFO": {
+            "tr": "Kullanıcının davet edenini ve sunucuya giriş tarihini gösterir.",
+            "en": "Shows the inviter and join date of the user."
+        },
+        "BONUS": {
+            "tr": "Kullanıcıya bonus verir. Bonus miktarı `-` ise bonusu azaltır.",
+            "en": "Gives bonus to the user. Bonus amount `-` is to reduce bonus."
+        },
+        "INVITES": {
+            "tr": "Kullanıcının davet bilgilerini gösterir.",
+            "en": "Shows the invite data of the user."
+        },
+        "TOP": {
+            "tr": "En çok davet yapan 10 kişiyi listeler.",
+            "en": "Shows the top 10 users."
+        },
+        "EXAMPLE": {
+            "tr": "Komutların kullanımı hakkında örnekler gösterir.",
+            "en": "Shows examples of the commands."
+        }
+    },
+    "COMMAND_EXAMPLE": {
+        "RANK": {
+            "tr": "`Rank eklemek için:` {prefix}rank add <rank> <rol/rol-id>\n\n`Rank çıkarmak için:` {prefix}rank remove <rank>",
+            "en": "`To add a rank:` {prefix}rank add <rank> <role/role-id>\n\n`To remove a rank:` {prefix}rank remove <rank>"
+        },
+        "INVITES": {
+            "tr": "`Davet bilgilerini göstermek için:` {prefix}invites <user>\n\n`Farklı kullanıcıların bilgilerini göstermek için:` {prefix}invites <@user>",
+            "en": "`To show invite data:` {prefix}invites <user>\n\n`To show invite data of other users:` {prefix}invites <@user>"
+        },
+        "INFO": {
+            "tr": "`Kullanıcının davet edenini ve sunucuya giriş tarihini gösterir:` {prefix}info <user>",
+            "en": "`To show the inviter and join date of the user:` {prefix}info <user>"
+        },
+        "BONUS": {
+            "tr": "`Kullanıcıya bonus vermek için:` {prefix}bonus <user> <miktar>\n\n`Kullanıcının bonusunu azaltmak için:` {prefix}bonus <user> -<miktar>",
+            "en": "`To give bonus to the user:` {prefix}bonus <user> <amount>\n\n`To reduce the user's bonus:` {prefix}bonus <user> -<amount>"
+        },
+        "TOP": {
+            "tr": "`En çok davet yapan 10 kişiyi listeler:` {prefix}top",
+            "en": "`To show the top 10 users:` {prefix}top"
+        },
+        "HELP": {
+            "tr": "`Botun komutları hakkında bilgi verir:` {prefix}help <komut>",
+            "en": "`To show help for the bot:` {prefix}help <command>"
+        },
+        "EXAMPLE": {
+            "tr": "`Komutların kullanımı hakkında örnekler gösterir:` {prefix}example <komut>",
+            "en": "`To show examples of the commands:` {prefix}example <command>"
+        }
+    }
+}
