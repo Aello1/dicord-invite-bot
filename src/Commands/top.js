@@ -8,6 +8,7 @@ module.exports = {
     description: LANG.HELP_COMMAND.TOP[BOT_CONFIG.LANGUAGE],
     example: LANG.COMMAND_EXAMPLE.TOP[BOT_CONFIG.LANGUAGE].replaceAll('{prefix}', BOT_CONFIG.PREFIX[0]),
     async run(message, args, client) {
+        let $index = 0;
         let $data = await $member.find({ guildId: message.guild.id }).sort({ "Points.top": -1 }).limit(10).exec();
         let $author = await $member.findOne({ userId: message.author.id })
         let inviters = $data.map(x => `<@${x.userId}> (${LANG.INVITES_COMMAND[BOT_CONFIG.LANGUAGE].replaceAll('{top}', x?.Points.top ?? 0).replaceAll('{regular}', x?.Points.regular ?? 0).replaceAll('{fake}', x?.Points.fake ?? 0)
