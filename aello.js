@@ -38,4 +38,4 @@ client.on('messageCreate', message => {
     if (command) try { command.run(message, args, client) } catch (err) { console.error(err); message.channel.send('Bir Hata Oluştu!') };
 });
 
-client.login("NzQxNTc3ODY4NjA5NTg1MTkz.GxxqNk.-lCV61-m9Vdm8DMAefkfCael-5xm-HaVoOjiG8");
+client.login(CONFIG.TOKEN);
