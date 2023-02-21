@@ -6,7 +6,7 @@
 
 • Kurulum işlemi tamamlandıktan sonra bu projeyi bilgisayarına zip olarak indir ve dosyayı çıkart.
 
-• [MongoDB](https://www.mongodb.com/) hesabından (yoksa oluşturunuz) connection linki al.
+• [MongoDB](https://www.mongodb.com/) hesabından (yoksa oluşturunuz) bağlantı linki al.
 
 • Bir Discord Botu hesabı oluştur ve tokenini al.
 
